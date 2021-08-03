@@ -2,4 +2,15 @@
   color: #fff;
   text-decoration: none;
   margin-right: 18px;
+  height: 148px;
+  width: 46px ;
+  font-size: 117%;
+}
+
+.header__lang-link:hover:active {
+  text-decoration: underline;
+}
+
+.header__lang-link:last-of-type {
+  margin: 0;
 }
