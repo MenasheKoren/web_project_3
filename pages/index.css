@@ -1,7 +1,13 @@
-/* vendor  */
+/* VENDOR  */
 @import url(../vendor/normalize.css);
 
 /* fonts */
 @import url(../vendor/fonts/inter.css);
 
+/* MIXES */
 
+
+/* BLOCKS */
+
+/* header */
+@import url(../blocks/header/header.css);
