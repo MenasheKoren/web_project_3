@@ -9,9 +9,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1280px;
-  background: #2A2C2F;
-  color: #fff ;
+  width: calc(100% - (148px * 2));
+  margin: 0 auto;
+  background: #2a2c2f;
+  color: #fff;
 }
 
 .logo {
@@ -19,10 +20,21 @@
   height: 44px;
 }
 
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 984px;
+  /* max-width: 984px; */
   width: 100%;
   height: auto;
   margin-top: 34px;
@@ -31,15 +43,16 @@
 
 .header__lang-links {
   display: flex;
+  margin: 0;
 }
 
 .header__lang-link {
   color: #fff;
-  text-decoration: none;
   margin-right: 18px;
-  height: 148px;
-  width: 46px ;
-  font-size: 117%;
+  height: 29px;
+  width: 28px;
+  font-size: 24px;
+  line-height: 28px;  
 }
 
 .header__lang-link:hover:active {
