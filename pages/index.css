@@ -145,3 +145,28 @@
 .intro__list_theme_bold {
   font-weight: bold;
 }
+
+.photo-grid {
+  display: grid;
+  max-width: calc(1280px - (48px * 2));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: space-between;
+  grid-gap: 16px;
+}
+
+.photo-grid__item-1,
+.photo-grid__item-2,
+.photo-grid__item-3,
+.photo-grid__item-4,
+.photo-grid__item-5,
+.photo-grid__item-6,
+.photo-grid__item-7,
+.photo-grid__item-8,
+.photo-grid__item-9,
+.photo-grid__item-1o,
+.photo-grid__item-11,
+.photo-grid__item-12, {
+  background-image: url(../images/photo-grid-highway.jpg);
+  background-size: contain;
+}
