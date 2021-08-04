@@ -2,59 +2,50 @@
 @import url(../vendor/normalize.css);
 
 /* fonts */
-@import url(../vendor/fonts/inter.css);
+@import url(../vendor/fonts/fonts.css);
 
-/* MIXES */
-@import url(../blocks/logo/logo.css);
+.page {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1280px;
+  background: #2A2C2F;
+  color: #fff ;
+}
 
-/* BLOCKS */
+.logo {
+  width: 190px;
+  height: 44px;
+}
 
-/* page */
-@import url(../blocks/page/page.css);
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+  margin-top: 34px;
+  align-content: flex-end;
+}
 
-/* header */
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__lang--links/header__lang-links.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+.header__lang-links {
+  display: flex;
+}
 
-/* lead */
-@import url(../blocks/lead/lead.css);
-@import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__caption/lead__caption.css);
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 18px;
+  height: 148px;
+  width: 46px ;
+  font-size: 117%;
+}
 
-/* intro */
-@import url(../blocks/intro/intro.css);
-@import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__text/_subtitle/intro__text_subtitle.css);
-@import url(../blocks/intro/__text/_paragraph/intro__text_paragraph.css);
-@import url(../blocks/intro/__list/intro__list.css);
+.header__lang-link:hover:active {
+  text-decoration: underline;
+}
 
-/* photo-grid */
-@import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);
-
-/* places */
-@import url(../blocks/places/places.css);
-
-/* place  */
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__url-heading/place__url-heading.css);
-@import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
-
-/* cover */
-@import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
-
-/* footer */
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+.header__lang-link:last-of-type {
+  margin: 0;
+}
