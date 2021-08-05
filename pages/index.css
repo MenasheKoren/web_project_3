@@ -6,9 +6,15 @@
 
 .page {
   box-sizing: border-box;
+<<<<<<< Updated upstream
 /*  display: flex;  */
 /*  flex-direction: column;  */
 /*  align-items: center; */
+=======
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+>>>>>>> Stashed changes
   max-width: 1280px;
   margin: 0 auto;
   background: #2a2c2f;
@@ -147,12 +153,11 @@
 }
 
 .photo-grid {
-  display: grid;
-  max-width: calc(1280px - (48px * 2));
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  justify-content: center;
-  grid-gap: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 0  25%;
+  justify-content: space-evenly;
+  width: calc(1280px - (48px * 2));
   margin: 92px 0;
 }
 
@@ -163,51 +168,51 @@
   width: 284px;
 }
 
-#photo-grid__item-1 {
+.photo-grid__item:nth-child(1) {
   background-image: url(../images/photo-grid-highway.jpg);
 }
 
-#photo-grid__item-2 {
+.photo-grid__item:nth-child(2) {
   background-image: url(../images/photo-grid-lake.jpg);
 }
 
-#photo-grid__item-3 {
+.photo-grid__item:nth-child(3) {
   background-image: url(../images/photo-grid-seagulls.jpg);
 }
 
-#photo-grid__item-4 {
+.photo-grid__item:nth-child(4) {
   background-image: url(../images/photo-grid-boise.jpg);
 }
 
-#photo-grid__item-5 {
+.photo-grid__item:nth-child(5) {
   background-image: url(../images/photo-grid-fog.jpg);
 }
 
-#photo-grid__item-6 {
+.photo-grid__item:nth-child(6) {
   background-image: url(../images/photo-grid-valley.jpg);
 }
 
-#photo-grid__item-7 {
+.photo-grid__item:nth-child(7) {
   background-image: url(../images/photo-grid-pass.jpg);
 }
 
-#photo-grid__item-8 {
+.photo-grid__item:nth-child(8) {
   background-image: url(../images/photo-grid-twig.jpg);
 }
 
-#photo-grid__item-9 {
+.photo-grid__item:nth-child(9) {
   background-image: url(../images/photo-grid-clouds.jpg);
 }
 
-#photo-grid__item-10 {
+.photo-grid__item:nth-child(10) {
   background-image: url(../images/photo-grid-oasis.jpg);
 }
 
-#photo-grid__item-11 {
+.photo-grid__item:nth-child(11) {
   background-image: url(../images/photo-grid-wires.jpg);
 }
 
-#photo-grid__item-12 {
+.photo-grid__item:nth-child(12) {
   background-image: url(../images/photo-grid-road.jpg);
 }
 
