@@ -219,8 +219,74 @@
 
 .place {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+  "title website"
+  "image paragraph1"
+  "image paragraph2"
+  "image paragraph3";
+  grid-gap: 25px 40px;
 }
 
 .place__title {
-
+	font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  grid-area: title;
 }
+
+.place__image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  grid-area: image;
+}
+
+#maine {
+  background-image: url(../images/place-maine.jpg);
+}
+
+#new-hampshire {
+  background-image: url(../images/place-new-hampshire.jpg);
+}
+
+
+#new-york {
+  background-image: url(../images/place-new-york.jpg);
+}
+
+
+#pennsylvania {
+  background-image: url(../images/place-pennsylvania.jpg);
+}
+
+
+#ohio {
+  background-image: url(../images/place-ohio.jpg);
+}
+
+
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  grid-area: website;
+}
+
+.place__paragraph {
+  margin: 0;
+}
+
+#place__paragraph_item-1 {
+  grid-area: paragraph1;
+}
+
+#place__paragraph_item-2 {
+  grid-area: paragraph2;
+}
+
+#place__paragraph_item-3 {
+  grid-area: paragraph3;
+}
+
