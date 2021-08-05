@@ -6,15 +6,9 @@
 
 .page {
   box-sizing: border-box;
-<<<<<<< Updated upstream
-/*  display: flex;  */
-/*  flex-direction: column;  */
-/*  align-items: center; */
-=======
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
->>>>>>> Stashed changes
+  align-items: center;
   max-width: 1280px;
   margin: 0 auto;
   background: #2a2c2f;
@@ -156,9 +150,9 @@
   display: flex;
   flex-flow: row wrap;
   flex: 1 0  25%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: calc(1280px - (48px * 2));
-  margin: 92px 0;
+  margin: 92px auto 0;
 }
 
 .photo-grid__item {
@@ -217,81 +211,46 @@
 }
 
 .places {
-  margin-top: 92px;
+  margin: 92px 148px 0;
   display: flex;
   flex-direction: column;
 }
 
 .place {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-  "title website"
-  "image paragraph1"
-  "image paragraph2"
-  "image paragraph3";
-  grid-gap: 25px 40px;
+  display: flex;
+}
+
+.place_col-1, .place_col-2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.place_col-1 {
+  margin-right: 40px;
 }
 
 .place__title {
 	font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  grid-area: title;
 }
 
 .place__image {
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  grid-area: image;
+  max-width: 460px;
+  max-height: 460px;
+  object-fit: cover;
 }
-
-#maine {
-  background-image: url(../images/place-maine.jpg);
-}
-
-#new-hampshire {
-  background-image: url(../images/place-new-hampshire.jpg);
-}
-
-
-#new-york {
-  background-image: url(../images/place-new-york.jpg);
-}
-
-
-#pennsylvania {
-  background-image: url(../images/place-pennsylvania.jpg);
-}
-
-
-#ohio {
-  background-image: url(../images/place-ohio.jpg);
-}
-
 
 .place__website {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  grid-area: website;
+}
+
+.place__url-heading {
+  margin: 0;
 }
 
 .place__paragraph {
   margin: 0;
 }
-
-#place__paragraph_item-1 {
-  grid-area: paragraph1;
-}
-
-#place__paragraph_item-2 {
-  grid-area: paragraph2;
-}
-
-#place__paragraph_item-3 {
-  grid-area: paragraph3;
-}
-
