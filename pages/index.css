@@ -151,8 +151,9 @@
   max-width: calc(1280px - (48px * 2));
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  justify-content: space-between;
+  justify-content: center;
   grid-gap: 16px;
+  margin: 92px 0;
 }
 
 .photo-grid__item-1,
@@ -166,7 +167,57 @@
 .photo-grid__item-9,
 .photo-grid__item-1o,
 .photo-grid__item-11,
-.photo-grid__item-12, {
-  background-image: url(../images/photo-grid-highway.jpg);
+.photo-grid__item-12 {
   background-size: contain;
+  background-repeat: no-repeat;
+  height: 213px;
+  width: 284px;
+}
+
+.photo-grid__item-1 {
+  background-image: url(../images/photo-grid-highway.jpg);
+}
+
+.photo-grid__item-2 {
+  background-image: url(../images/photo-grid-lake.jpg);
+}
+
+.photo-grid__item-3 {
+  background-image: url(../images/photo-grid-seagulls.jpg);
+}
+
+.photo-grid__item-4 {
+  background-image: url(../images/photo-grid-boise.jpg);
+}
+
+.photo-grid__item-5 {
+  background-image: url(../images/photo-grid-fog.jpg);
+}
+
+.photo-grid__item-6 {
+  background-image: url(../images/photo-grid-valley.jpg);
+}
+
+.photo-grid__item-7 {
+  background-image: url(../images/photo-grid-pass.jpg);
+}
+
+.photo-grid__item-8 {
+  background-image: url(../images/photo-grid-twig.jpg);
+}
+
+.photo-grid__item-9 {
+  background-image: url(../images/photo-grid-clouds.jpg);
+}
+
+.photo-grid__item-10 {
+  background-image: url(../images/photo-grid-oasis.jpg);
+}
+
+.photo-grid__item-11 {
+  background-image: url(../images/photo-grid-wires.jpg);
+}
+
+.photo-grid__item-12 {
+  background-image: url(../images/photo-grid-road.jpg);
 }
