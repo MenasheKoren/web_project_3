@@ -283,6 +283,8 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 170%;
+  letter-spacing: 0.2em;
+  color: #AAA;
 }
 
 .place__link {
@@ -302,3 +304,26 @@
   line-height: 163%;
 }
 
+.place__paragraph {
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+
+.cover__background {
+  background: url(../images/cover-route-66.jpg) no-repeat center;
+  width: 1184px;
+  height: 740px;
+  position: relative;
+  background-size: contain;
+  z-index: 2;
+}
+
+.cover__text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
