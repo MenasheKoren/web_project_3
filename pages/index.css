@@ -9,8 +9,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 320px;
+  margin: 0;
+  padding: 0;
   background: #2a2c2f;
   color: #fff;
   font-family: Inter;
@@ -18,17 +19,17 @@
 }
 
 .content {
-  width: calc(100% - (148px * 2));
+/*  width: calc(100% - (148px * 2)); */
 }
 
 .logo {
-  width: 190px;
-  height: 44px;
+  width: 136px;
+  height: 36px;
 }
 
 .list {
   list-style-type: none;
-  padding: 0;
+/*  padding: 0; */
 }
 
 .link {
@@ -39,9 +40,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 100%;
+  max-width: 288px;
   height: auto;
-  margin-top: 34px;
+  margin: 20px 16px 0;
   align-content: flex-end;
 }
 
