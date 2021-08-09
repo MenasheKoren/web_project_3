@@ -381,3 +381,66 @@
     flex: 21%;
   }
 }
+
+/*places */
+.places {
+  margin: 64px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.place {
+  margin: 48px 0;
+}
+
+.place__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  margin: 0 16px;
+}
+
+.place__website {
+
+}
+
+.place__url-heading {
+
+}
+
+.place__link {
+
+}
+
+.place__image {
+  min-width: 320px;
+  min-height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.place__image_item-1 {
+  background-image: url(../images/place-maine.jpg);
+}
+
+.place__image_item-2 {
+ background-image: url(../images/place-new-hampshire.jpg);
+}
+
+
+.place__image_item-3 {
+ background-image: url(../images/place-new-york.jpg);
+}
+
+
+.place__image_item-4 {
+ background-image: url(../images/place-pennsylvania.jpg);
+}
+
+
+.place__image_item-5 {
+ background-image: url(../images/place-ohio.jpg);
+}
+
+
