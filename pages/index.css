@@ -401,21 +401,27 @@
 }
 
 .place__website {
-
+  margin: 30px 16px;
 }
 
 .place__url-heading {
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  color: #AAA;
+  margin: 12px 0;
 
-}
 
 .place__link {
-
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: underline;
 }
 
 .place__image {
   min-width: 320px;
   min-height: 320px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -443,4 +449,12 @@
  background-image: url(../images/place-ohio.jpg);
 }
 
+.place__paragraphs {
+  margin: 32px 16px;
+  font-size: 16px;
+  line-height: 26px;
+}
 
+.place__paragraph {
+  margin: 25px 16px;
+}
