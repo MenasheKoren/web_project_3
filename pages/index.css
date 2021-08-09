@@ -7,6 +7,12 @@
 .link {
   color: #fff;
   cursor: default;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.link:hover {
+  opacity: .8;
 }
 
 .list {
@@ -99,4 +105,42 @@
   .header {
     margin: 34px 148px 0;
   }
+}
+
+
+/*lead */
+.lead {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.lead__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  margin: 0 16px;
+}
+
+.lead__subtitle {
+  margin: 16px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.lead__image {
+  background-image: url(../images/lead-mountains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 320px;
+  min-height: 200px;
+  margin: 40px 0 0;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 8px 0 0 16px;
+  text-align: left;
 }
