@@ -278,3 +278,106 @@
     margin-right: 442px;
   }
 }
+
+/*photo-grid */
+.photo-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 64px 16px;
+  gap: 12px;
+}
+
+.photo-grid__item {
+  min-width: 288px;
+  min-height: 216px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 100%;
+}
+
+.photo-grid__item:nth-child(1) {
+  background-image: url(../images/photo-grid-highway.jpg);
+}
+
+.photo-grid__item:nth-child(2) {
+  background-image: url(../images/photo-grid-lake.jpg);
+}
+
+.photo-grid__item:nth-child(3) {
+  background-image: url(../images/photo-grid-seagulls.jpg);
+}
+
+.photo-grid__item:nth-child(4) {
+  background-image: url(../images/photo-grid-boise.jpg);
+}
+
+.photo-grid__item:nth-child(5) {
+  background-image: url(../images/photo-grid-fog.jpg);
+}
+
+.photo-grid__item:nth-child(6) {
+  background-image: url(../images/photo-grid-valley.jpg);
+}
+
+.photo-grid__item:nth-child(7) {
+  background-image: url(../images/photo-grid-pass.jpg);
+}
+
+.photo-grid__item:nth-child(8) {
+  background-image: url(../images/photo-grid-twig.jpg);
+}
+
+.photo-grid__item:nth-child(9) {
+  background-image: url(../images/photo-grid-clouds.jpg);
+}
+
+.photo-grid__item:nth-child(10) {
+  background-image: url(../images/photo-grid-oasis.jpg);
+}
+
+.photo-grid__item:nth-child(11) {
+  background-image: url(../images/photo-grid-wires.jpg);
+}
+
+.photo-grid__item:nth-child(12) {
+  background-image: url(../images/photo-grid-road.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .photo-grid {
+    margin: 88px 24px;
+    gap: 16px;
+  }
+
+  .photo-grid__item {
+    min-width: 352px;
+    min-height: 264px;
+    flex: 45%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .photo-grid {
+    margin: 92px 48px;
+    gap: 14px;
+  }
+
+  .photo-grid__item {
+    min-width: 300px;
+    min-height: 225px;
+    flex: 30%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    gap: 16px;
+  }
+
+  .photo-grid__item {
+    min-width: 284px;
+    min-height: 213px;
+    flex: 21%;
+  }
+}
