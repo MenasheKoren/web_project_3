@@ -212,3 +212,41 @@
     margin-left: 148px;
   }
 }
+
+
+/*intro */
+.intro {
+  margin: 64px 16px 0;
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.intro___subtitle {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.intro___paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 34px;
+}
+
+.intro__list {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0;
+}
+
+.intro__list_theme_bold {
+  font-weight: bold;
+}
+
+
