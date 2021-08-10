@@ -17,6 +17,8 @@
 
 .list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
@@ -479,8 +481,6 @@
     font-size: 42px;
     line-height: 46px;
     margin: 0 28px 0 0;
-    min-width: 340px;
-    min-height: 46px;
     width: calc(50% - 14px);
   }
 
@@ -505,4 +505,51 @@
     margin: 0;
     width: calc(50% - 14px);
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .places {
+    margin: 92px 48px;
+  }
+
+  .place__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin: 0 32px 0 0;
+    width: calc(50% - 16px);
+  }
+
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .place__image {
+    min-width: 440px;
+    min-height: 440px;
+    margin: 0 32px 0 0;
+    width: calc(50% - 16px);
+  }
+}
+
+
+/*cover */
+.cover__background {
+  background: url(../images/cover-route-66.jpg) no-repeat center;
+  width: 320px;
+  height: 200px;
+  position: relative;
+  background-size: contain;
+  z-index: 2;
+  margin-top: 64px;
+}
+
+.cover__text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
 }
