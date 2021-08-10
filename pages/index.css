@@ -546,13 +546,19 @@
 }
 
 .cover__background {
-  background: url(../images/cover-route-66.jpg) no-repeat center;
-  width: 320px;
-  height: 200px;
+  background: #2A2C2F url(../images/cover-route-66.jpg) no-repeat center;
+  min-width: 320px;
+  min-height: 200px;
   position: relative;
-  background-size: contain;
+  background-size: cover;
   z-index: 2;
   margin-top: 64px;
+  opacity: 0.8;
+  transition: opacity .5s ease-in-out .2s;
+}
+
+.cover__background:hover {
+  opacity: 0.3;
 }
 
 .cover__text {
@@ -560,8 +566,9 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: 3;
+  z-index: 5;
   transform: translate(-50%, -50%);
+  opacity: 1;
 }
 
 .cover__title {
@@ -569,10 +576,17 @@
   font-size: 32px;
   line-height: 35px;
   margin: 0;
+  min-width: 288px;
+  min-height: 35px;
+  padding-bottom: 16px;
+  color: #FFFDFD;
 }
 
 .cover__subtitle {
   font-size: 14px;
   line-height: 16px;
-  margin: 16px;
+  margin: 0;
+  min-width: 288px;
+  min-height: 48px;
 }
+
