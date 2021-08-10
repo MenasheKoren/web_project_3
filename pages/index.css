@@ -579,14 +579,62 @@
   min-width: 288px;
   min-height: 35px;
   padding-bottom: 16px;
-  color: #FFFDFD;
+  color: #FFF;
 }
 
 .cover__subtitle {
   font-size: 14px;
   line-height: 16px;
-  margin: 0;
+  margin: auto;
   min-width: 288px;
   min-height: 48px;
 }
 
+@media screen and (min-width: 768px) {
+  .cover {
+    margin: 88px 0;
+  }
+
+  .cover__background {
+    min-width: 768px;
+    min-height: 480px;
+  }
+
+  .cover__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    width: 656px;
+    height: 76px;
+    padding-bottom: 32px;
+  }
+
+  .cover__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    width: 320px;
+    height: 66px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 92px 0;
+  }
+
+  .cover__background {
+    min-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 92px 48px;
+  }
+
+  .cover__background {
+    min-width: 1184px;
+    min-height: 740px;
+  }
+}
