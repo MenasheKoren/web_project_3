@@ -1,4 +1,4 @@
 *.css linguist-detectable=true
 *.html linguist-detectable=true
-.env/* linguist-vendored
+.env/** linguist-vendored
 
