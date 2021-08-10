@@ -541,6 +541,10 @@
 
 
 /*cover */
+.cover {
+  margin: 64px 0;
+}
+
 .cover__background {
   background: url(../images/cover-route-66.jpg) no-repeat center;
   width: 320px;
@@ -558,4 +562,17 @@
   left: 50%;
   z-index: 3;
   transform: translate(-50%, -50%);
+}
+
+.cover__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.cover__subtitle {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 16px;
 }
