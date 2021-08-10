@@ -1,5 +1,4 @@
 *.css linguist-detectable=true
 *.html linguist-detectable=true
-.env/*.* linguist-detectable=false
-*.py linguist-detectable=false
+.env/* linguist-vendored
 
