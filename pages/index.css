@@ -6,9 +6,8 @@
 
 .link {
   color: #fff;
-  cursor: default;
   text-decoration: none;
-  transition: .5s;
+  transition: ease .2s;
 }
 
 .link:hover {
@@ -546,20 +545,21 @@
 }
 
 .cover__background {
-  background: #2A2C2F url(../images/cover-route-66.jpg) no-repeat center;
+  background: rgba(42, 44, 47, .3) url(../images/cover-route-66.jpg) no-repeat center;
   min-width: 320px;
   min-height: 200px;
   position: relative;
   background-size: cover;
   z-index: 2;
   margin-top: 64px;
-  opacity: 0.8;
-  transition: opacity .5s ease-in-out .2s;
+  display: block;
 }
 
 .cover__background:hover {
-  opacity: 0.3;
+  background-color: rgba(42, 44, 47, .8);
+  background-blend-mode: overlay;
 }
+
 
 .cover__text {
   text-align: center;
