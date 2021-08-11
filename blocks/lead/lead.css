@@ -2,3 +2,9 @@
   margin-top: 50px;
   text-align: center;
 }
+
+@media screen and (min-width:  1184px) {
+  .lead{
+    margin-top: 58px;
+  }
+}

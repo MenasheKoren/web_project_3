@@ -14,7 +14,7 @@
   background-color: rgba(42, 44, 47, 0.8);
   background-blend-mode: overlay;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width:  768px) {
   .cover__background {
     min-width: 768px;
     min-height: 480px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width:  1184px) {
   .cover__background {
     min-width: 1184px;
     min-height: 740px;

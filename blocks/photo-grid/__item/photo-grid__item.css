@@ -55,7 +55,7 @@
   background-image: url(../../../images/photo-grid-road.jpg);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:  768px) {
   .photo-grid__item {
     min-width: 352px;
     min-height: 264px;
@@ -71,7 +71,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width:  1184px) {
   .photo-grid__item {
     min-width: 284px;
     min-height: 213px;

@@ -1,18 +1,18 @@
 .cover__title {
   font-weight: 900;
   font-size: 32px;
-  line-height: 35px;
+  line-height: 109%;
   margin: 0;
   min-width: 288px;
   min-height: 35px;
   padding-bottom: 16px;
   color: #fff;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width:  768px) {
   .cover__title {
     font-weight: 900;
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
     width: 656px;
     height: 76px;
     padding-bottom: 32px;
