@@ -1,10 +1,11 @@
 .photo-grid__item {
-  min-width: 288px;
+  max-width: calc(100% - (16px * 2));
   min-height: 216px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   flex: 100%;
+  margin: 0 auto;
 }
 
 .photo-grid__item:nth-child(1) {
@@ -55,9 +56,9 @@
   background-image: url(../../../images/photo-grid-road.jpg);
 }
 
-@media screen and (min-width:  768px) {
+@media screen and (min-width: 768px) {
   .photo-grid__item {
-    min-width: 352px;
+    max-width: calc(100% - (24px * 2));
     min-height: 264px;
     flex: 45%;
   }
@@ -65,15 +66,15 @@
 
 @media screen and (min-width: 1024px) {
   .photo-grid__item {
-    min-width: 300px;
+    max-width: calc(100% - (48px * 2));
     min-height: 225px;
     flex: 30%;
   }
 }
 
-@media screen and (min-width:  1184px) {
+@media screen and (min-width: 1184px) {
   .photo-grid__item {
-    min-width: 284px;
+    /* max-width: calc(100% - (16px * 2)); */
     min-height: 213px;
     flex: 21%;
   }
