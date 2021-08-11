@@ -5,6 +5,7 @@
   text-transform: uppercase;
   padding: 8px 0 0 16px;
   text-align: left;
+  margin: 0 auto;
 }
 
 @media screen and (min-width:  768px) {

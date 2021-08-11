@@ -4,12 +4,11 @@
   background-size: cover;
   background-position: center;
   min-height: 200px;
-  padding: 40px auto 0;
+  margin: 0 auto;
 }
 
-@media screen and (min-width:  768px) {
+@media screen and (min-width: 768px) {
   .lead__image {
-    padding: 56px auto 0;
     min-height: 480px;
   }
 }
@@ -17,15 +16,14 @@
 @media screen and (min-width: 1024px) {
   .lead__image {
     min-height: 580px;
-    padding: 56px auto 0;
+    padding-top: 56px;
     max-width: calc(100% - (48px * 2));
   }
 }
 
-@media screen and (min-width:  1184px) {
+@media screen and (min-width: 1184px) {
   .lead__image {
     min-height: 615px;
-    padding: 64px auto 0;
     max-width: calc(100% - ((148px - 48px) * 2));
   }
 }
