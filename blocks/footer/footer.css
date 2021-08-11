@@ -1,5 +1,5 @@
 .footer {
-  margin: 64px 16px 24px;
+  padding: 64px 16px 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,7 +9,7 @@
 
 @media screen and (min-width:  768px) {
   .footer {
-    margin: 88px 24px 24px;
+    padding: 88px 24px 24px;
     flex-direction: row;
     min-width: 720px;
     height: 18px;
@@ -19,6 +19,6 @@
 
 @media screen and (mid-width: 1024px) {
   .footer {
-    margin: 92px 48px 24px;
+    padding: 92px 48px 24px;
   }
 }

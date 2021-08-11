@@ -3,7 +3,7 @@
   line-height: 12px;
   letter-spacing: 0.2em;
   color: #aaa;
-  margin: 12px 0;
+  padding: 12px 0;
 }
 
 @media screen and (min-width: 1024px) {

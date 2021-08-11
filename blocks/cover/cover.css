@@ -1,21 +1,21 @@
 .cover {
-  margin: 64px 0;
+  padding: 64px 0;
 }
 
 @media screen and (min-width:  768px) {
   .cover {
-    margin: 88px 0;
+    padding: 88px 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    margin: 92px 0;
+    padding: 92px 0;
   }
 }
 
 @media screen and (min-width:  1184px) {
   .cover {
-    margin: 92px 48px;
+    padding: 92px 48px;
   }
 }

@@ -10,7 +10,7 @@
   .place__image {
     min-width: 340px;
     min-height: 340px;
-    margin: 0 28px 0 0;
+    padding: 0 28px 0 0;
     width: calc(50% - 14px);
   }
 }
@@ -19,7 +19,7 @@
   .place__image {
     min-width: 440px;
     min-height: 440px;
-    margin: 0 32px 0 0;
+    padding: 0 32px 0 0;
     width: calc(50% - 16px);
   }
 }
