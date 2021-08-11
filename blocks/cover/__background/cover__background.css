@@ -1,12 +1,11 @@
 .cover__background {
-  background: rgba(42, 44, 47, 0.3) url(../../../images/cover-route-66.jpg) no-repeat
-    center;
-  min-width: 320px;
+  background: rgba(42, 44, 47, 0.3) url(../../../images/cover-route-66.jpg)
+    no-repeat center;
+  max-width: 100%;
   min-height: 200px;
   position: relative;
   background-size: cover;
   z-index: 2;
-  margin-top: 64px;
   display: block;
 }
 
@@ -14,7 +13,8 @@
   background-color: rgba(42, 44, 47, 0.8);
   background-blend-mode: overlay;
 }
-@media screen and (min-width:  768px) {
+
+@media screen and (min-width: 768px) {
   .cover__background {
     min-width: 768px;
     min-height: 480px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width:  1184px) {
+@media screen and (min-width: 1184px) {
   .cover__background {
     min-width: 1184px;
     min-height: 740px;
