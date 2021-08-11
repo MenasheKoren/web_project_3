@@ -1,0 +1,11 @@
+.place__paragraphs {
+  margin: 32px 16px;
+  font-size: 16px;
+  line-height: 26px;
+}
+@media screen and (min-width: 768px) {
+  .place__paragraphs {
+    margin: 0;
+    width: calc(50% - 14px);
+  }
+}

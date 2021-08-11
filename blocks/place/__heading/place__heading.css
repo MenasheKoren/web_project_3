@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+  .place__heading {
+    display: flex;
+    margin: 0;
+    align-items: flex-end;
+  }
+}
