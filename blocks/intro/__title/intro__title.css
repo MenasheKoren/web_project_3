@@ -2,7 +2,8 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 109%;
-  padding: 0 0 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {

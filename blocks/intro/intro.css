@@ -1,25 +1,26 @@
 .intro {
-  padding: 64px auto;
+  padding-top: 64px;
   max-width: calc(100% - (16px * 2));
+  margin: 0 auto;
 }
 
-@media screen and (min-width:  768px) {
+@media screen and (min-width: 768px) {
   .intro {
-    padding: 88px auto;
+    padding-top: 88px;
     max-width: calc(100% - (24px * 2));
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
-    padding: 92px auto 48px;
+    padding: 92px 286px 0 48px;
     max-width: calc(100% - (48px + 286px));
   }
 }
 
-@media screen and (min-width:  1184px) {
+@media screen and (min-width: 1184px) {
   .intro {
-    padding-right: 442px;
-    max-width: calc(100% - ((148px - 48px) * 2));
+    padding: 92px calc(442px - 48px) 0 calc(148px - 48px);
+    max-width: calc(100% - ((148px + 442px) - (48px * 2)));
   }
 }
