@@ -1,4 +1,4 @@
-# Project 3: From Portland to Portland
+# Web Project 3: From Portland to Portland
 https://menashekoren.github.io/web_project_3/
 
 ### Overview
