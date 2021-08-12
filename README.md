@@ -7,7 +7,7 @@ https://menashekoren.github.io/web_project_3/
 
 **Intro**
 
-This is a Demo project, in coordination with Practicum100, describing traveling across the US.
+This is a Demo project, in coordination with Practicum100, describing traveling across the United States.
 
 **Technologies**
 
