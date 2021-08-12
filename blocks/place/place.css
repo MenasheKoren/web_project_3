@@ -4,6 +4,10 @@
   flex-direction: column;
 }
 
+.place:first-child {
+  padding: 0;
+}
+
 @media screen and (min-width: 768px) {
   .place {
     display: flex;
