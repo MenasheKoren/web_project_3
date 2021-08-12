@@ -1,20 +1,15 @@
 # Project 3: From Portland to Portland
+https://menashekoren.github.io/web_project_3/
 
 ### Overview
 * Intro
-* Figma
-* Images
+* Technologes
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a Demo project, in coordination with Practicum100, describing traveling across the US.
 
-**Figma**
+**Technologies**
 
-* [Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
+The technologies used in this project are HTML, CSS, and Figma for design specifications.
 
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
