@@ -1,7 +1,6 @@
 .footer__link {
   font-size: 24px;
   line-height: 100%;
-  margin-bottom: 32px;
   color: #fff;
   text-decoration: none;
   transition: ease .2s;
@@ -11,10 +10,8 @@
   opacity: .8;
 }
 
-
-@media screen and (min-width:  768px) {
+@media screen and (min-width: 768px) {
   .footer__link {
     line-height: 112%;
-    padding: 0 18px 0 0;
   }
 }
