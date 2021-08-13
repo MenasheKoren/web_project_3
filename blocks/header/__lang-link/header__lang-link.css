@@ -1,5 +1,7 @@
 .header__lang-link {
   padding-right: 18px;
+  list-style-type: none;
+
 }
 
 .header__lang-link:last-of-type {
