@@ -5,12 +5,11 @@
   color: #aaa;
   padding-bottom: 12px;
   margin: 0 auto;
-  
+
 }
 
 @media screen and (min-width: 1024px) {
   .place__url-heading {
-    font-size: 12px;
     line-height: 170%;
   }
 }
