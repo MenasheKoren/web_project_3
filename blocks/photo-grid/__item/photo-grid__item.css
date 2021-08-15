@@ -1,6 +1,5 @@
 .photo-grid__item {
   max-width: 100%;
-  min-height: 216px;
   flex: 100%;
   margin: 0 auto;
   object-fit: cover;
@@ -10,7 +9,6 @@
 @media screen and (min-width: 768px) {
   .photo-grid__item {
     max-width: calc(50% - 16px);
-    min-height: 264px;
     margin: 0;
   }
 }
@@ -18,13 +16,11 @@
 @media screen and (min-width: 1024px) {
   .photo-grid__item {
     max-width: calc((100% / 3) - (14px * 2));
-    min-height: 225px;
   }
 }
 
 @media screen and (min-width: 1184px) {
   .photo-grid__item {
-    min-height: 213px;
-    max-width: calc((100% / 4) - (16px * 3));
+    max-width: calc(25% - 16px);
   }
 }
