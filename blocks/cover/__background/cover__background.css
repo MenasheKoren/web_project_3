@@ -3,10 +3,13 @@
     no-repeat center;
   max-width: 100%;
   min-height: 200px;
-  position: relative;
   background-size: cover;
   z-index: 2;
-  display: block;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: ease .2s;
+  margin: 0 auto;
 }
 
 .cover__background:hover {
