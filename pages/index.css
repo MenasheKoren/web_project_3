@@ -38,11 +38,6 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__content/place__content.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_maine/place__image_maine.css);
-@import url(../blocks/place/__image/_new-hampshire/place__image_new-hampshire.css);
-@import url(../blocks/place/__image/_new-york/place__image_new-york.css);
-@import url(../blocks/place/__image/_pennsylvania/place__image_pennsylvania.css);
-@import url(../blocks/place/__image/_ohio/place__image_ohio.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
