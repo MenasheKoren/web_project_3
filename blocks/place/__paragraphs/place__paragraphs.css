@@ -11,3 +11,9 @@
     width: calc(50% - 14px);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .paragraphs {
+    line-height: 163%;
+  }
+}
