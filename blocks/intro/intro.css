@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
   .intro {
     padding-top: 88px;
     max-width: calc(100% - (24px * 2));

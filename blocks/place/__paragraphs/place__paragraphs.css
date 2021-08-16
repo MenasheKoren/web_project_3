@@ -4,7 +4,7 @@
   max-width: calc(100% - (16px * 2));
   margin: 0 auto;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
   .place__paragraphs {
     padding: 0;
     margin: 0;
