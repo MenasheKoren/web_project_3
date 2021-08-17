@@ -1,6 +1,5 @@
 .place__paragraphs {
   padding-top: 32px;
-  line-height: 163%;
   max-width: calc(100% - (16px * 2));
   margin: 0 auto;
 }
@@ -12,8 +11,3 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .paragraphs {
-    line-height: 163%;
-  }
-}

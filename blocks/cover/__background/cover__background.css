@@ -10,6 +10,7 @@
   text-decoration: none;
   transition: ease .2s;
   margin: 0 auto;
+  background-blend-mode: overlay;
 }
 
 .cover__background:hover {
