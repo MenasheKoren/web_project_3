@@ -12,7 +12,7 @@
   .photo-grid {
     padding-top: 88px;
     gap: 16px;
-    max-width: calc(100% - (24px * 2));
+    max-width: calc(100% - (24px * 2) + 1em);
   }
 }
 
@@ -20,12 +20,13 @@
   .photo-grid {
     padding-top: 92px;
     gap: 14px;
-    max-width: calc(100% - (48px * 2));
+    max-width: calc(100% - (48px * 2) + 3.25em);
   }
 }
 
 @media screen and (min-width: 1184px) {
   .photo-grid {
     gap: 16px;
+    max-width: initial;
   }
 }
